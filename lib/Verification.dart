@@ -129,18 +129,20 @@ class Verification extends StatelessWidget {
                         ),
                       ),
                       Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: <Widget>[
                           Container(
                             decoration: BoxDecoration(
                                 color: Color(0xff6F6C6E),
                                 ),
                             height: 284,
-                            width: 360,
+                            width: 300,
                             child: Column(
+                              mainAxisAlignment: MainAxisAlignment.start,
                               children: <Widget>[
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.start,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
+
                                   children: <Widget>[
                                     Container(
                                       decoration: BoxDecoration(
@@ -148,7 +150,7 @@ class Verification extends StatelessWidget {
                                           border: Border.all( color: Color(0xFF898A8D), width: 1),
                                           borderRadius: BorderRadius.all(Radius.circular(5))),
                                       height: 45,
-                                      width: 90,
+                                      width: 60,
                                       margin: const EdgeInsets.symmetric(horizontal: 100),
                                       child: Center(
                                         child:Text('1',
@@ -166,7 +168,7 @@ class Verification extends StatelessWidget {
                                             border: Border.all( color: Color(0xFF898A8D), width: 1),
                                             borderRadius: BorderRadius.all(Radius.circular(5))),
                                         height: 45,
-                                        width: 114,
+                                        width: 60,
                                         margin: const EdgeInsets.symmetric(horizontal: 100),
                                         child: Center(
                                           child:Column(
@@ -194,7 +196,7 @@ class Verification extends StatelessWidget {
                                           border: Border.all( color: Color(0xFF898A8D), width: 1),
                                           borderRadius: BorderRadius.all(Radius.circular(5))),
                                       height: 45,
-                                      width: 114,
+                                      width: 60,
                                       margin: const EdgeInsets.symmetric(horizontal: 100),
                                       child: Center(
                                         child:Column(
